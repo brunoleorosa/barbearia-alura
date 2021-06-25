@@ -1,57 +1,119 @@
-/*css para propriedade id*/
-#banner{
-    width: 100%;
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
 
-.principal{
-    background-color: #cccccc;
-    padding: 30px;
-    margin-bottom: 30px;
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.titulo-principal{
+nav{
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*border-color: #000000;
+    border-width: 2px;
+    border-style: solid;*/
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+}
+
+.produtos li:active{
+    border-color: #088C19;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
+.produtos h2{
     font-size: 30px;
     font-weight: bold;
-    margin: 30px;
-    text-align: center;
 }
 
-.titulo-centralizado{
-    text-align: center;
+.produto-descricao{
+    font-size: 18px;
+}
+
+.preco{
+    font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
-p{
+footer{
     text-align: center;
-    margin: 20px 0;
+    background: url("bg.jpg");
+    padding: 40px 0;
 }
 
-#missao{
-    font-style: italic;
+.copyright{
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
-em strong{
-    color: red;
-}
-
-/*css para propriedade class*/
-.itens{
-    font-style: italic;
-}
-
-.beneficios{
-    background-color: #ffffff;
-    padding: 20px;
-}
-
-.lista-beneficios{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.imagembeneficios{
+.input-padrao{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
 }
