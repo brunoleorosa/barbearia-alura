@@ -101,7 +101,7 @@ form{
     margin: 40px 0;
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
@@ -114,6 +114,16 @@ form label, form p{
     width: 50%;
 }
 
+select{
+    padding: 10px 25px;
+}
+
 .checkbox{
     margin: 20px 0;
+}
+
+.button{
+    background-color: #c78c19;
+    color: #FFFFFF;
+    padding: 10px 25px;
 }
